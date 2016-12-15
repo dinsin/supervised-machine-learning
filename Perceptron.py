@@ -2,10 +2,16 @@
 
 Dinesh Singh
 
-ds3930@nyu.edu
-N12980657
+dinesh.singh@nyu.edu
 
 Perceptron Supervised Learning Algorithm
+
+The Perceptron algorithm is a model of a single neuron. It operates by receiving inputs
+from the training data that are then weighted and used in the activation equation. The output
+from this equation is put into a transfer function, which generates Perceptron’s prediction. In
+my implementation of Peceptron, I included functions for file I/O, for determining accuracy, for
+training the weights, and for evaluating the algorithm. My implementation uses a learning rate of
+0.01, and runs for 1000 epochs. The average accuracy of my Perceptron algorithm is 86.0%.
 
 '''
 

@@ -2,10 +2,18 @@
 
 Dinesh Singh
 
-ds3930@nyu.edu
-N12980657
+dinesh.singh@nyu.edu
 
 ID3 Decision Tree Supervised Learning Algorithm
+
+The ID3 Decision Tree algorithm works by constructing a tree in a top-down, recursive,
+divide-and-conquer method. Initially, the training samples are at the root of the tree. Samples are
+then passed through recursively, and partitioned based on a heuristic or predetermined attribute.
+The ID3 algorithm stops partitioning when all samples belong tot he same class, there are no
+remaining samples, or there are no attributes left to interpret. My implementation of the ID3 algorithm has functions for file I/O, determining accuracy, building the tree, making decisions using
+the tree, and making a given node a parent or terminal node. I also created a function that uses
+a proportion to calculate the optimal location at which to split datasets. The average accuracy of
+my ID3 algorithm is 79%.
 
 '''
 

@@ -2,10 +2,17 @@
 
 Dinesh Singh
 
-ds3930@nyu.edu
-N12980657
+dinesh.singh@nyu.edu
 
 kNN Supervised Learning Algorithm
+
+The K-Nearest Neighbor algorithm creates its prediction by first searching through the
+training dataset and determining the ’k’ most similar instances. The most similar instances are
+evaluated and summarized, and then returned as the prediction for the data being classified. In
+my implementation of K-Nearest Neighbor, I used the Euclidean distance as a heuristic. I also had
+a dedicated function for file I/O, a function that finds the appropriate neighbors, a function that
+makes a prediction based on those neighbors, and a function that determines the accuracy of the
+prediction. My algorithm produces an accuracy of about 86.6% with k = 5 neighbors.
 
 '''
 
