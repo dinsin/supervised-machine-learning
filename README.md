@@ -1,4 +1,4 @@
-# supervised-machine-learning
+# Supervised Machine Learning
 
 Implementation of a few supervised machine learning algorithms on a simple dataset.
 
